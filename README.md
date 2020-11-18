@@ -1,5 +1,7 @@
 Form3 API Client
 ========================
+![Go](https://github.com/dolohow/form3/workflows/Go/badge.svg)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/dolohow/form3@v0.0.0-20201118124947-f8a64830ae6d/form3)](https://pkg.go.dev/github.com/dolohow/form3@v0.0.0-20201118124947-f8a64830ae6d/form3)
 
 
 ## Design decisions
