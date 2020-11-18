@@ -29,11 +29,8 @@ jobs:
             dep ensure
         fi
 
-    - name: Test
-      run: go test -v -coverprofile=profile.cov ./...
+    - name: Vet
+      run: go vet -all ./...
 
-    - name: Send coverage
-      uses: shogo82148/actions-goveralls@v1
-      with:
-        path-to-profile: profile.cov
-        flag-name: Go-1.15
+    - name: Test
+      run: go test -v ./...
